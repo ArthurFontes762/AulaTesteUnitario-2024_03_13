@@ -1,4 +1,4 @@
-# Não esqueça de abrir o terminal para instalar os módulos. Ex: pip install mock
+# Não esqueça de abrir o terminal para instalar os módulos. Ex: pip install mock, pip install coverage
 
 import unittest
 import coverage

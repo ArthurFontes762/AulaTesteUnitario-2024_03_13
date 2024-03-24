@@ -58,7 +58,7 @@ class TestCalculadora(unittest.TestCase):
     
 if __name__ == "__main__":
     # Criar uma instância do Coverage com o arquivo .coveragerc
-    cov = coverage.Coverage(config_file='.coveragerc.txt')
+    cov = coverage.Coverage(config_file='.coveragerc')
 
     # Iniciar a medição da cobertura
     cov.start()
@@ -77,3 +77,6 @@ if __name__ == "__main__":
     # Abra o relatório no navegador
     index_file = os.path.join('htmlcov', 'index.html')
     webbrowser.open('file://' + os.path.abspath(index_file))
+
+    # Adicionar uma pausa antes de finalizar
+    input("Pressione Enter para sair...")
